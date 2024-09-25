@@ -24,18 +24,18 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="px-[3vh]  lg:h-[15vh] md:h-[15vh] lg:flex md:flex mt-[8vh] lg:mt-[0] md:mt-[0]">
-                <div className="w-[100%] lg:w-[50%] md:w-[50%]">
+            <div className="px-[3vh] lg:h-[15vh] md:h-[15vh] flex mt-[8vh] lg:mt-[0] md:mt-[0]">
+                <div className="w-[50%]">
                     <div className="text-[3vh] md:text-[6vh] lg:text-[6vh] major text-[#FFF] opacity-[.3]">m. WAtney</div>
                     <div className="lg:text-[3vh] md:text-[3vh] text-[2.5vh] text-gray">AGE: 42</div>
                     <div className="lg:text-[3vh] md:text-[3vh] text-[2.5vh] text-gray">OXYGEN LEVEL: 31%</div>
                     <div className="lg:text-[3vh] md:text-[3vh] text-[2.5vh] text-gray">STATUS: DEHYDRATED</div>
                 </div>
 
-                <div className="w-[100%] lg:w-[50%] md:w-[50%] text-right">
-                    <div className="text-[#888888] lg:text-[6vh] md:text-[6vh] text-[4vh]">SEPTEMBER 30TH 2015</div>
-                    <div className="text-[#E0E0E0] opacity-[.3] font-medium lg:text-[4vh] md:text-[4vh] text-[3vh]">A Ridley’s Scott production</div>
-                    <div className="text-[#E0E0E0] opacity-[.3] font-medium lg:text-[4vh] md:text-[4vh] text-[3vh]">Based on Andy’s Weir novel</div>
+                <div className="w-[50%] text-right">
+                    <div className="text-[#888888] lg:text-[6vh] md:text-[6vh] text-[3vh]">SEPTEMBER 30TH 2015</div>
+                    <div className="text-[#E0E0E0] opacity-[.3] font-medium lg:text-[4vh] md:text-[4vh] text-[2.5vh]">A Ridley’s Scott production</div>
+                    <div className="text-[#E0E0E0] opacity-[.3] font-medium lg:text-[4vh] md:text-[4vh] text-[2.5vh]">Based on Andy’s Weir novel</div>
                 </div>
             </div>
         </div>
