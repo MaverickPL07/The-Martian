@@ -2,7 +2,7 @@ import FrameLine from './FrameLine';
 
 const Frame = () => {
     return (
-        <div id="frame" className="absolute z-3 w-[100vw] h-[100vh] z-4">
+        <div id="frame" className="invisible md:visible lg:visible absolute z-3 w-[100vw] h-[100vh] z-4">
         <div className='absolute top-[10vh] z-4'>
           <FrameLine horizontal />
         </div>

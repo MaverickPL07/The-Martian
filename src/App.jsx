@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="">
       <Background />
-      <div id="watney" style={{filter: "drop-shadow(0 0 100px #FF6B00)"}} className="absolute z-2 w-[100vw] bottom-0 h-[100vh] bg-left bg-no-repeat bg-contain opacity-[.7]"></div>
+      <div id="watney" style={{filter: "drop-shadow(0 0 100px #FF6B00)"}} className="absolute z-2 w-[100vw] bottom-0 h-[100vh] bg-left bg-no-repeat bg-cover md:bg-contain lg:bg-contain opacity-[.7]"></div>
 
       <FrameCircles />
       <Navbar />
